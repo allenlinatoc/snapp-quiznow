@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_666565_quiznow_question_bank</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-18 02:47:48</sys_created_on>
+        <sys_id>587446cb1b37b01038df2134604bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_666565_quiznow_question_bank</sys_name>
+        <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
+        <sys_update_name>sys_security_acl_587446cb1b37b01038df2134604bcb5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 02:47:48</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QuizNow">08127ffe1b77701038df2134604bcb39</application>
+        <file_path/>
+        <instance_id>bcb96094db80bc10a667cac505961923</instance_id>
+        <instance_name>dev113522</instance_name>
+        <name>sys_security_acl_587446cb1b37b01038df2134604bcb5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_666565_quiznow_question_bank</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-18 02:47:48</sys_created_on><sys_id>587446cb1b37b01038df2134604bcb5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_666565_quiznow_question_bank</sys_name><sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package><sys_policy/><sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope><sys_update_name>sys_security_acl_587446cb1b37b01038df2134604bcb5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-18 02:47:48</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>134323936</payload_hash>
+        <record_name>x_666565_quiznow_question_bank</record_name>
+        <reverted_from/>
+        <source>cc127ffe1b77701038df2134604bcb60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-18 02:47:48</sys_created_on>
+        <sys_id>587446cb1b37b01038df2134604bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d30f16d3a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 02:47:48</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>907446cb4e37b01041f9a7674a26585e</update_guid>
+        <update_guid_history>907446cb4e37b01041f9a7674a26585e:134323936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-18 03:07:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>204a69f10dfd44ba8c3c8d3c0851cfc4</sys_id>
+        <sys_metadata>587446cb1b37b01038df2134604bcb5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_666565_quiznow_question_bank</sys_name>
+        <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
+        <sys_parent display_value="x_666565_quiznow_question_bank">2733bf721bb7701038df2134604bcb1a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
+        <sys_scope_delete display_value="">96210e495d5e481498cd2432cfff2b89</sys_scope_delete>
+        <sys_update_name>sys_security_acl_587446cb1b37b01038df2134604bcb5b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_587446cb1b37b01038df2134604bcb5b">587446cb1b37b01038df2134604bcb5e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 03:07:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

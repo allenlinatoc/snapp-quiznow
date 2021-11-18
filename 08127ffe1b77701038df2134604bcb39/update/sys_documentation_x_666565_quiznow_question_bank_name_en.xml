@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Name" language="en" table="x_666565_quiznow_question_bank">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_666565_quiznow_question_bank</name>
+            <plural>Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-17 16:26:28</sys_created_on>
+            <sys_id>b236bb761bb7701038df2134604bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name</sys_name>
+            <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
+            <sys_update_name>sys_documentation_x_666565_quiznow_question_bank_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-17 16:26:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

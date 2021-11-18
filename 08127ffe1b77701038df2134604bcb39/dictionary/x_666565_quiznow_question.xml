@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Question" max_length="40" name="x_666565_quiznow_question" sizeclass="2" type="collection">
+        <element label="Bank" max_length="32" name="bank" reference="x_666565_quiznow_question_bank" type="reference"/>
+        <element display="true" label="Text" max_length="400" name="text" type="string"/>
+        <element choice="3" label="Type" max_length="4000" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Plain" sequence="10" value="plain"/>
+                <element inactive_on_update="false" label="Multiple" sequence="20" value="multiple"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="bank"/>
+        </index>
+    </element>
+</database>

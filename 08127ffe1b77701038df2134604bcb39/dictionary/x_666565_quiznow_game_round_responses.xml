@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Game round responses" max_length="40" name="x_666565_quiznow_game_round_responses" sizeclass="0" type="collection">
+        <element label="Game round" max_length="32" name="game_round" reference="x_666565_quiznow_game_round" type="reference"/>
+        <element label="Participant" mandatory="true" max_length="32" name="participant" reference="x_666565_quiznow_participants" type="reference"/>
+        <element label="Response" max_length="50" name="response" type="string"/>
+        <index name="index">
+            <element name="game_round"/>
+        </index>
+        <index name="index2">
+            <element name="participant"/>
+        </index>
+    </element>
+</database>

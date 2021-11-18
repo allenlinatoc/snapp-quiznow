@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Participants" max_length="40" name="x_666565_quiznow_participants" sizeclass="0" type="collection">
+        <element label="Alias" max_length="40" name="alias" type="string"/>
+        <element label="Game" max_length="32" name="game" reference="x_666565_quiznow_game" type="reference"/>
+        <element label="Points" max_length="9" name="points" type="integer"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+    </element>
+</database>
