@@ -2,7 +2,7 @@
     <element label="Question Bank" max_length="40" name="x_666565_quiznow_question_bank" sizeclass="1" type="collection">
         <element label="Category" max_length="32" name="category" reference="x_666565_quiznow_question_bank_category" type="reference"/>
         <element label="Description" max_length="400" name="description" type="string"/>
-        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <index name="index">
             <element name="category"/>
         </index>

@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>100</max_length>
         <name>x_666565_quiznow_question_bank</name>
         <next_element/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-17 16:26:28</sys_created_on>
         <sys_id>7e36bb761bb7701038df2134604bcb63</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Name</sys_name>
         <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
         <sys_policy/>
         <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
         <sys_update_name>sys_dictionary_x_666565_quiznow_question_bank_name</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-17 16:26:28</sys_updated_on>
+        <sys_updated_by>allen.linatoc</sys_updated_by>
+        <sys_updated_on>2021-11-24 06:45:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
