@@ -3,86 +3,100 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-18 02:54:44</sys_created_on>
-            <sys_id>4a06c28f1b37b01038df2134604bcb0c</sys_id>
+            <sys_created_by>allen.linatoc</sys_created_by>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>1f0982811bc8011038df2134604bcb31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-18 02:54:44</sys_updated_on>
+            <sys_updated_by>allen.linatoc</sys_updated_by>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>code</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-18 02:54:44</sys_created_on>
-            <sys_id>ce06c28f1b37b01038df2134604bcb0c</sys_id>
+            <sys_created_by>allen.linatoc</sys_created_by>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>9f0982811bc8011038df2134604bcb31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-18 02:54:44</sys_updated_on>
+            <sys_updated_by>allen.linatoc</sys_updated_by>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>allen.linatoc</sys_created_by>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>130982811bc8011038df2134604bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
+            <sys_updated_by>allen.linatoc</sys_updated_by>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-18 02:54:44</sys_created_on>
-            <sys_id>4206c28f1b37b01038df2134604bcb0d</sys_id>
+            <position>3</position>
+            <sys_created_by>allen.linatoc</sys_created_by>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>930982811bc8011038df2134604bcb32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-18 02:54:44</sys_updated_on>
+            <sys_updated_by>allen.linatoc</sys_updated_by>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>completed_question</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-18 02:54:44</sys_created_on>
-            <sys_id>c206c28f1b37b01038df2134604bcb0d</sys_id>
+            <element>active</element>
+            <position>4</position>
+            <sys_created_by>allen.linatoc</sys_created_by>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>170982811bc8011038df2134604bcb32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-18 02:54:44</sys_updated_on>
+            <sys_updated_by>allen.linatoc</sys_updated_by>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>completed_question</element>
+            <position>5</position>
+            <sys_created_by>allen.linatoc</sys_created_by>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>970982811bc8011038df2134604bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
+            <sys_updated_by>allen.linatoc</sys_updated_by>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-18 02:54:44</sys_created_on>
-            <sys_id>4606c28f1b37b01038df2134604bcb0d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-18 02:54:44</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>allen.linatoc</sys_created_by>
-            <sys_created_on>2021-11-18 09:22:12</sys_created_on>
-            <sys_id>f5be53471bbfb01038df2134604bcb0c</sys_id>
+            <sys_created_on>2021-11-24 08:15:47</sys_created_on>
+            <sys_id>1b0982811bc8011038df2134604bcb32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_666565_quiznow_game" sys_domain="global" view="Default view">46064acb1b37b01038df2134604bcb4a</sys_ui_section>
             <sys_updated_by>allen.linatoc</sys_updated_by>
-            <sys_updated_on>2021-11-18 09:22:12</sys_updated_on>
+            <sys_updated_on>2021-11-24 08:15:47</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

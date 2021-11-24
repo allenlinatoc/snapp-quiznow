@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This will generate random number.&#13;
+Convert to base-36&#13;
+slice 8 characters</description>
+        <field>code</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Generate Game Code</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    if (g_form.isNewRecord()) {
+        var ga = new GlideAjax("x_666565_quiznow.Game");
+		ga.addParam("sysparm_name", "generateCode");
+		ga.getXMLAnswer(function(answer) {
+			try {
+				answer = JSON.parse(answer);
+				if (answer.data) {
+					g_form.setValue("code", answer.data);
+					g_form.setReadOnly("code", true);
+				}
+			} catch (ex) {
+				alert("A network error ocurred ");
+			}
+		});
+    }
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-22 09:49:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b62b0c281b0c011038df2134604bcb52</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Generate Game Code</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
+        <sys_update_name>sys_script_client_b62b0c281b0c011038df2134604bcb52</sys_update_name>
+        <sys_updated_by>allen.linatoc</sys_updated_by>
+        <sys_updated_on>2021-11-24 08:03:17</sys_updated_on>
+        <table>x_666565_quiznow_game</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
