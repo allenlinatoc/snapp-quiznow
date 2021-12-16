@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_666565_quiznow.QuestionChoiceUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>QuestionChoiceUtils</name>
+        <script><![CDATA[var QuestionChoiceUtils = Class.create();
+QuestionChoiceUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+	
+	//return new choices order + 10
+    getNewOrder: function(question_id){
+		var question = question_id;
+		var newOrder = QuestionChoiceUtils.getMaxOrder(question);
+		return newOrder + 10;
+		
+	},
+
+    type: 'QuestionChoiceUtils',
+
+});
+
+(function(self) {
+	
+	//get Max Order from the question choices
+    self.getMaxOrder= function(question_id) {
+        var question = question_id;
+
+        var gr = new GlideRecord("x_666565_quiznow_question_choice");
+        gr.addQuery('question', question);
+        gr.orderByDesc('order');
+        gr.query();
+
+        if (gr.next() || (!isNaN(gr.order))) {
+            return parseInt(gr.order);
+        } else {
+            return 0;
+        }
+    };
+})(QuestionChoiceUtils);
+
+//Background Script Checking
+// var q = '94ad5b831bbfb01038df2134604bcb1e';
+// var newOrder = new QuestionChoiceUtils();
+// gs.info(newOrder.getNewOrder(q));
+
+// var maxCode = QuestionChoiceUtils.getMaxOrder(q);
+// gs.info(maxCode);]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 09:48:22</sys_created_on>
+        <sys_id>2fcb9e811b4c011038df2134604bcbcc</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>QuestionChoiceUtils</sys_name>
+        <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
+        <sys_update_name>sys_script_include_2fcb9e811b4c011038df2134604bcbcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 05:45:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

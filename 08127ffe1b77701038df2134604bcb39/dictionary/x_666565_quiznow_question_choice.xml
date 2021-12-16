@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Question Choice" max_length="40" name="x_666565_quiznow_question_choice" sizeclass="2" type="collection">
+    <element label="Question Choice" max_length="40" name="x_666565_quiznow_question_choice" sizeclass="15" type="collection">
         <element label="Is Correct Answer?" max_length="40" name="answer" type="boolean"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
-        <element label="Question" max_length="32" name="question" reference="x_666565_quiznow_question" type="reference"/>
+        <element label="Question" max_length="32" name="question" read_only="true" reference="x_666565_quiznow_question" type="reference"/>
         <element label="Text" max_length="400" name="text" type="string"/>
         <index name="index">
             <element name="question"/>

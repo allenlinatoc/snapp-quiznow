@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments/>
+        <name>grDesc</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 09:35:22</sys_created_on>
+        <sys_id>423b9e411b4c011038df2134604bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>grDesc</sys_name>
+        <sys_package display_value="QuizNow" source="x_666565_quiznow">08127ffe1b77701038df2134604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QuizNow">08127ffe1b77701038df2134604bcb39</sys_scope>
+        <sys_update_name>syntax_editor_macro_423b9e411b4c011038df2134604bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 09:35:22</sys_updated_on>
+        <text>var question = 'b87702cd1b88011038df2134604bcbe9';&#13;
+&#13;
+var gr = new GlideRecord("x_666565_quiznow_question_choice");&#13;
+gr.addQuery('question=' + question);&#13;
+gr.orderByDesc('order');&#13;
+gr.query();&#13;
+gs.info(gr.getRowCount());&#13;
+&#13;
+gr.next();&#13;
+&#13;
+gs.info(gr.order);&#13;
+</text>
+    </syntax_editor_macro>
+</record_update>
